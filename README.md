@@ -1,16 +1,76 @@
-# React + Vite
+# StudyNest AI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> This project was developed as per the Major Project Guidelines shared by Prathamesh Sir.
 
-Currently, two official plugins are available:
+## 📖 Project Overview
+StudyNest AI is an AI-powered study management system that helps students organize their learning. Users can securely sign up, manage subjects and notes, track their study progress through analytics, and use AI features for learning assistance.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
+- User Authentication using Supabase
+- Protected Routes
+- Subjects Management (CRUD)
+- Notes Management (CRUD)
+- Analytics Dashboard
+- AI Assistant using Groq AI
+- Responsive Landing Page
+- User Profile
+- Logout Functionality
 
-## React Compiler
+## 🛠️ Tech Stack
+- React.js
+- Vite
+- Tailwind CSS
+- Supabase
+- Groq AI
+- Resend
+- Recharts
+- React Router
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Installation
 
-## Expanding the ESLint configuration
+1. Clone the repository
+2. Install dependencies
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm install
+```
+
+3. Start the project
+
+```bash
+npm run dev
+```
+
+## 🔑 Environment Variables
+
+Create a `.env` file and add:
+
+```env
+VITE_SUPABASE_URL=
+VITE_SUPABASE_ANON_KEY=
+VITE_GROQ_API_KEY=
+```
+
+## 📸 Screenshots
+
+Add screenshots of:
+- Landing Page
+- Login
+- Dashboard
+- Subjects
+- Notes
+- Analytics
+- AI Assistant
+
+## 🌐 Live Demo
+
+Vercel:
+https://study-nest-ai-krupa.vercel.app/
+
+## 📂 GitHub Repository
+
+https://github.com/yelamkarkrupa-spec/StudyNest-AI-New
+
+## 👩‍💻 Developer
+
+Krupa Yelamkar
